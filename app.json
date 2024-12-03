@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "CSF",
+    "slug": "csf",
+    "owner": "mtssantosdev",
+    "version": "1.9.0",
+    "jsEngine": "jsc",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "enabled": false,
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "br.com.csf",
+      "buildNumber": "32"
+    },
+    "android": {
+      "package": "com.csf.mobile",
+      "googleServicesFile": "./services/google-services.json",
+      "versionCode": 37
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c41c76b5-acd0-4fe8-b93e-a3dfbc2b53e5"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]
+    ]
+  }
+}

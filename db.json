@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Lanches",
+      "image": "https://www.pngkit.com/png/full/52-526207_hawaiian-burger-kfc-kfc-sanders-burger.png"
+    },
+    {
+      "id": 2,
+      "name": "Refrigerantes",
+      "image": "https://www.renderhub.com/fabiobispo/soda-can-220-ml/soda-can-220-ml.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "X-Bacon",
+      "categoryId": 1,
+      "price": 12.5,
+      "description": "Pão, hambúrger, bacon, queijo."
+    },
+    {
+      "id": 2,
+      "name": "X-Tudo",
+      "categoryId": 1,
+      "price": 15,
+      "description": "Pão, hambúrger, ovo, bacon, presunto, queijo, alface e tomate."
+    },
+    {
+      "id": 3,
+      "name": "Coca-Cola 2L",
+      "categoryId": 2,
+      "price": 9,
+      "description": null
+    },
+    {
+      "id": 4,
+      "name": "Coca-cola 300ml",
+      "categoryId": 2,
+      "price": 4.5,
+      "description": null
+    }
+  ]
+}

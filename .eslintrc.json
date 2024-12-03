@@ -1,0 +1,41 @@
+{
+  "env": {
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "airbnb",
+    "@react-native-community",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint", "prettier"],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
+    "eslint-comments/no-unlimited-disable": "off",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    "no-console": "warn",
+    "object-curly-spacing": "warn",
+    "prettier/prettier": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+    "react/jsx-props-no-spreading": "off",
+    "react/no-array-index-key": "off",
+    "react/style-prop-object": "off",
+    "react/no-unescaped-entities": "off",
+    "react-native/no-inline-styles": "off",
+    "space-before-function-paren": ["error", "always"]
+  }
+}

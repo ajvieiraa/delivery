@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "301209933554",
+    "project_id": "mobilecsf-bcaa2",
+    "storage_bucket": "mobilecsf-bcaa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301209933554:android:8a1f9bf0a0323df61fe26b",
+        "android_client_info": {
+          "package_name": "com.csf.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR4PkOyubTmzMaNlZX6m_RU8HZ1gY7bKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
